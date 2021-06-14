@@ -1,0 +1,29 @@
+.text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+}
+
+.body {
+  position: absolute;
+  left: 400px;
+  top: 90px;
+  background-color: #34ccf1;
+  width: 9px;
+  height: 100px;
+}
+.body ::before {
+  left: 100px;
+  top: 90px;
+  background-color: #34ccf1;
+  width: 9px;
+  height: 80px;
+}
+
+.head {
+  background-color: #7adef7;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
